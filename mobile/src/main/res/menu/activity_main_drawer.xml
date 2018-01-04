@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@drawable/ic_music_note_black_24dp"
+            android:title="Music" />
+        <item android:id="@+id/nav_dialler"
+            android:icon="@drawable/ic_dialpad_black_24dp"
+            android:title="Dialer"/>
+        <item android:id="@+id/nav_video"
+            android:icon="@drawable/ic_video_library_black_24dp"
+            android:title="Video"/>
+        <item android:id="@+id/nav_files"
+            android:icon="@drawable/ic_folder_open_black_24dp"
+            android:title="Files"/>
+        <item android:id="@+id/nav_browser"
+            android:icon="@drawable/ic_open_in_browser_black_24dp"
+            android:title="Browser"/>
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
